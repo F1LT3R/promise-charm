@@ -1,0 +1,38 @@
+{
+  "name": "promise-charm",
+  "version": "1.0.0",
+  "description": "A small util library to create a chain of sequential (serial/chained) promises that return in request/array order.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/f1lt3r/promise-charm.git"
+  },
+  "keywords": [
+    "promises",
+    "chain",
+    "serial",
+    "sequential",
+    "concurrent",
+    "concurrency",
+    "order",
+    "array",
+    "bluebird"
+  ],
+  "author": "f1lt3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f1lt3r/promise-charm/issues"
+  },
+  "homepage": "https://github.com/f1lt3r/promise-charm#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0"
+  }
+}
