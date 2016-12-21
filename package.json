@@ -1,6 +1,6 @@
 {
   "name": "promise-charm",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "A small util library to create a chain of sequential (serial/chained) promises that return in request/array order.",
   "main": "index.js",
   "scripts": {
